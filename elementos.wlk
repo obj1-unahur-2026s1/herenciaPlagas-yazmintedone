@@ -47,5 +47,5 @@ class Barrio{
     method cantElementosBuenos(){                      //Usa la función de colecciones .count(...). Recorre la lista elemento por elemento (al que llama e) y cuenta cuántos devuelven true al preguntarles e.esBueno().
         return elementos.count({e=>e.esBueno()})
     }
-
+    method probarCodigo(){return 0}
 }
